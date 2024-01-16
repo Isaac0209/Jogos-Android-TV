@@ -13,5 +13,18 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:focusable="true"
-        android:focusableInTouchMode="true"/>
+        android:focusableInTouchMode="true">
+
+    </WebView>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:alpha="100"
+        android:text="teste"
+        android:textAlignment="center"
+        android:textColor="#FF0000"
+        android:textSize="96sp" />
+
 </FrameLayout>
